@@ -96,4 +96,4 @@ if (!!process.env.NEXT_PUBLIC_SENTRY_DSN) {
   );
 }
 
-module.exports = () => plugins.reduce((acc, next) => next(acc), nextConfig);
+module.exports = ()
