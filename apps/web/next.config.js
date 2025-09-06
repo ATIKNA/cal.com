@@ -736,4 +736,4 @@ function adjustEnvVariables() {
   }
 }
 
-module.exports = (phase) => plugins.reduce((acc, next) => next(acc), nextConfig(phase));
+module.exports = (phase)
